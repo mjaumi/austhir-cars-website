@@ -157,7 +157,7 @@ $count = mysqli_num_rows(mysqli_query($conn, $_SESSION['sqlQueryForFilter']));
                 <input type="hidden" name="brands" />
                 <ul class="dropdown-menu">
                   <!-- <li >Select Brand</li> -->
-                  <li id="none">All Brands</li>
+                  
                   <?php 
                   $sqlQuery = "SELECT DISTINCT carBrand FROM cars";
                   $result = mysqli_query($conn, $sqlQuery);
